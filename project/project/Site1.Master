@@ -1,0 +1,253 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Site1.master.cs" Inherits="project.Site1" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title></title>
+
+    <!-- Start WOWSlider.com HEAD section -->
+<link rel="stylesheet" type="text/css" href="engine1/style.css" />
+<script type="text/javascript" src="engine1/jquery.js"></script>
+<!-- End WOWSlider.com HEAD section -->
+
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+    <style type="text/css">
+        .style1
+        {
+            width: 100%;
+        }
+        .style2
+        {
+            text-align: center;
+        }
+        .style3
+        {
+            color: #FFFFFF;
+        }
+        .style6
+        {
+            font-size: x-large;
+            color: #FFFFFF;
+        }
+        .style7
+        {
+            font-size: x-large;
+            font-weight: bold;
+        }
+        .style8
+        {
+            font-size: x-large;
+            font-weight: bold;
+            color: #FFFFFF;
+        }
+        .style9
+        {
+            color: #663300;
+        }
+        .style10
+        {
+            font-family: "Times New Roman", Times, serif;
+            font-size: x-large;
+        }
+        .style12
+        {
+            font-size: x-large;
+            color: #663300;
+        }
+        .style13
+        {
+            text-align: center;
+            width: 288px;
+        }
+    </style>
+</head>
+<body>
+    <form id="form1" runat="server">
+    <div>
+
+
+        <table class="style1">
+            <tr>
+                <td>
+                       <asp:ImageButton ID="ImageButton1" runat="server" Height="174px" 
+            ImageUrl="~/img/logo/banasthali logo.gif" Width="174px" />
+       &nbsp;</td>
+                <td>
+                    <!-- Start WOWSlider.com BODY section -->
+<div id="wowslider-container1">
+<div class="ws_images"><ul>
+		<li><img src="data1/images/screenshot_168.png" alt="SpicyBite" title="SpicyBite" id="wows1_0"/></li>
+		<li><img src="data1/images/screenshot_190.png" alt="EAT'S" title="EAT'S" id="wows1_1"/></li>
+		<li><img src="data1/images/screenshot_191.png" alt="Fun n frolic" title="Fun n frolic" id="wows1_2"/></li>
+		<li><img src="data1/images/shanu.png" alt="shanu'z" title="shanu'z" id="wows1_3"/></li>
+		<li><img src="data1/images/p4.jpg" alt="make your life Tasty" title="make your life Tasty" id="wows1_4"/></li>
+		<li><img src="data1/images/faloo_paratha__copy.jpg" alt="" title="" id="wows1_5"/></li>
+		<li><img src="data1/images/halloumiwrap.jpg" alt="" title="" id="wows1_6"/></li>
+		<li><img src="data1/images/p1.jpg" alt="" title="" id="wows1_7"/></li>
+		<li><img src="data1/images/p2.jpg" alt="" title="" id="wows1_8"/></li>
+		<li><img src="data1/images/p6.jpg" alt="" title="" id="wows1_9"/></li>
+		<li><img src="data1/images/p7.png" alt="" title="" id="wows1_10"/></li>
+		<li><img src="data1/images/pastryphoto291528.jpg" alt="" title="" id="wows1_11"/></li>
+		<li><a href="http://wowslider.net"><img src="data1/images/cajunchickenwrap,large.1478558531.jpg" alt="html5 slideshow" title="" id="wows1_12"/></a></li>
+		<li><img src="data1/images/capturelenifoodsite.jpg" alt="" title="" id="wows1_13"/></li>
+	</ul></div>
+	<div class="ws_bullets"><div>
+		<a href="#" title="SpicyBite"><span><img src="data1/tooltips/screenshot_168.png" alt="SpicyBite"/>1</span></a>
+		<a href="#" title="EAT'S"><span><img src="data1/tooltips/screenshot_190.png" alt="EAT'S"/>2</span></a>
+		<a href="#" title="Fun n frolic"><span><img src="data1/tooltips/screenshot_191.png" alt="Fun n frolic"/>3</span></a>
+		<a href="#" title="shanu'z"><span><img src="data1/tooltips/shanu.png" alt="shanu'z"/>4</span></a>
+		<a href="#" title="make your life Tasty"><span><img src="data1/tooltips/p4.jpg" alt="make your life Tasty"/>5</span></a>
+		<a href="#" title=""><span><img src="data1/tooltips/faloo_paratha__copy.jpg" alt=""/>6</span></a>
+		<a href="#" title=""><span><img src="data1/tooltips/halloumiwrap.jpg" alt=""/>7</span></a>
+		<a href="#" title=""><span><img src="data1/tooltips/p1.jpg" alt=""/>8</span></a>
+		<a href="#" title=""><span><img src="data1/tooltips/p2.jpg" alt=""/>9</span></a>
+		<a href="#" title=""><span><img src="data1/tooltips/p6.jpg" alt=""/>10</span></a>
+		<a href="#" title=""><span><img src="data1/tooltips/p7.png" alt=""/>11</span></a>
+		<a href="#" title=""><span><img src="data1/tooltips/pastryphoto291528.jpg" alt=""/>12</span></a>
+		<a href="#" title=""><span><img src="data1/tooltips/cajunchickenwrap,large.1478558531.jpg" alt=""/>13</span></a>
+		<a href="#" title=""><span><img src="data1/tooltips/capturelenifoodsite.jpg" alt=""/>14</span></a>
+	</div></div><div class="ws_script" style="position:absolute;left:-99%"><a href="http://wowslider.net">html slider</a> by WOWSlider.com v8.8</div>
+<div class="ws_shadow"></div>
+</div>	
+<script type="text/javascript" src="engine1/wowslider.js"></script>
+<script type="text/javascript" src="engine1/script.js"></script>
+<!-- End WOWSlider.com BODY section -->
+                    
+                    &nbsp;</td>
+            </tr>
+        </table>
+
+
+      <br />
+        <br />
+        <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+        
+            <p>
+            </p>
+        
+        </asp:ContentPlaceHolder>
+        <asp:Panel ID="Panel1" runat="server">
+            <table class="style1">
+                <tr>
+                    <td class="style13">
+                        <asp:ImageButton ID="ImageButton16" runat="server" Height="152px" 
+                            style="margin-top:11px" Width="250px" 
+                            ImageUrl="~/img/cant/restaurant-bar-dining-area.jpg" PostBackUrl="~/spicy.aspx" 
+                            />
+                        <span class="style9"><strong><span class="style10">
+                        <br />
+                        Spicy Bite</span></strong></span><br />
+                    </td>
+                    <td class="style2">
+                        <asp:ImageButton ID="ImageButton13" runat="server" Height="152px" 
+                            ImageUrl="~/img/cant/Restaurant-Design-10.jpg" 
+                            style="margin-left: 6px; margin-top: 11px" Width="250px" 
+                            PostBackUrl="~/shanuz.aspx" />
+                        <br />
+                        <span class="style9">&nbsp;</span><strong><span class="style12">Shanuz&#39;s</span></strong></td>
+                    <td class="style2">
+                        <asp:ImageButton ID="ImageButton14" runat="server" Height="149px" 
+                            ImageUrl="~/img/cant/bkgrnd-photo-1449773.jpeg"  
+                            Width="252px" style="margin-top:11px" PostBackUrl="~/fnf.aspx" />
+                        <br />
+                        &nbsp;<span class="style12"><strong>Fun N Frolic</strong></span></td>
+                    <td class="style2">
+                        <asp:ImageButton ID="ImageButton15" runat="server" Height="145px" 
+                            ImageUrl="~/img/cant/menu-restaurant-vintage-table.jpg" Width="231px" 
+                            style="margin-top:11px" PostBackUrl="~/eats.aspx" />
+                        <br />
+                        <strong><span class="style12">Eat&#39;s</span></strong></td>
+                </tr>
+            </table>
+        </asp:Panel>
+        <br />
+        <br />
+        <table class="style1">
+            <tr>
+                <td bgcolor="#660033" class="style2" 
+                    style="background-image: url('/img/logo/back.jpg'); color: #FFFFFF;">
+                    <asp:ImageButton ID="ImageButton2" runat="server" Height="254px" 
+                        ImageUrl="~/img/time/hai.jpg" PostBackUrl="~/canteenPage.aspx" 
+                        Width="220px" />
+                    <br />
+                    <span class="style7">Breakfast</span><br />
+                </td>
+                <td bgcolor="#660033" class="style2" 
+                    style="background-image: url('/img/logo/back.jpg')">
+                    <asp:ImageButton ID="ImageButton3" runat="server" Height="199px" 
+                        ImageUrl="~/img/time/butter paneer.jpg"
+                        PostBackUrl="~/canteenPage.aspx" Width="198px" />
+                    <br />
+                    <span class="style8">Lunch</span></td>
+                <td bgcolor="#660033" class="style2" 
+                    style="background-image: url('/img/logo/back.jpg')">
+                    <asp:ImageButton ID="ImageButton4" runat="server" Height="204px" 
+                        ImageUrl="~/img/time/snd.jpg" Width="201px" 
+                        PostBackUrl="~/canteenPage.aspx" />
+                    <br />
+                    <strong><span class="style6">Snacks</span></strong></td>
+                <td bgcolor="#660033" class="style2" 
+                    style="background-image: url('/img/logo/back.jpg')">
+                    <asp:ImageButton ID="ImageButton5" runat="server" Height="189px" 
+                        ImageUrl="~/img/time/dish.jpg" Width="193px" 
+                        PostBackUrl="~/canteenPage.aspx" />
+                    <br />
+                    <span class="style8">Dinner</span></td>
+            </tr>
+        </table>
+        <br />
+        <table class="style1">
+            <tr>
+                <td bgcolor="#CC0066" class="style2" 
+                    style="background-image: url('/img/logo/back.jpg')">
+                    <asp:ImageButton ID="ImageButton6" runat="server" Height="133px" 
+                        ImageUrl="~/img/cat/north/chole bhature.jpg" Width="206px" 
+                        PostBackUrl="~/canteenPage.aspx" />
+                    <br />
+                    <span class="style8">North Indian</span></td>
+                <td bgcolor="#CC0066" class="style2" 
+                    style="background-image: url('/img/logo/back.jpg')">
+                    <asp:ImageButton ID="ImageButton7" runat="server" Height="178px" 
+                        ImageUrl="~/img/cat/chinese/momo2.jpg" Width="235px" 
+                        PostBackUrl="~/canteenPage.aspx" />
+                    <br />
+                    <span class="style8">Chinese</span></td>
+                <td bgcolor="#CC0066" class="style2" 
+                    style="background-image: url('/img/logo/back.jpg')">
+                    <asp:ImageButton ID="ImageButton8" runat="server" Height="141px" 
+                        ImageUrl="~/img/cat/south/south.jpg" Width="242px" 
+                        PostBackUrl="~/canteenPage.aspx" />
+                    <br />
+                    <span class="style8">South Indian</span></td>
+            </tr>
+            <tr>
+                <td bgcolor="#CC0066" class="style2" 
+                    style="background-image: url('/img/logo/back.jpg')">
+                    <asp:ImageButton ID="ImageButton9" runat="server" Height="170px" 
+                        ImageUrl="~/img/cat/drink/pineapple juice.jpg" Width="199px" 
+                        PostBackUrl="~/canteenPage.aspx" />
+                    <br />
+                    <span class="style8">Beverages</span></td>
+                <td bgcolor="#CC0066" class="style2" 
+                    style="background-image: url('/img/logo/back.jpg')">
+                    <asp:ImageButton ID="ImageButton10" runat="server" Height="178px" 
+                        ImageUrl="~/img/cat/dessert/rv cake1.jpg" Width="194px" 
+                        PostBackUrl="~/canteenPage.aspx" CssClass="style3" 
+                       />
+                    <br class="style3" />
+                    <span class="style8">Desserts</span></td>
+                <td bgcolor="#CC0066" class="style2" 
+                    style="background-image: url('/img/logo/back.jpg')">
+                    <asp:ImageButton ID="ImageButton11" runat="server" Height="171px" 
+                        ImageUrl="~/img/cat/starter/samosa.jpg" Width="220px" 
+                        PostBackUrl="~/canteenPage.aspx" />
+                    <br />
+                    <span class="style8">Starters</span></td>
+            </tr>
+        </table>
+    </div>
+    </form>
+</body>
+</html>

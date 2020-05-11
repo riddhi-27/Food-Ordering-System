@@ -1,0 +1,402 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>
+    </ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{DE9D1F29-A91E-46E8-AEAD-EF12C4FA8EBD}</ProjectGuid>
+    <ProjectTypeGuids>{349c5851-65df-11da-9384-00065b846f21};{fae04ec0-301f-11d3-bf4b-00c04f79efbc}</ProjectTypeGuids>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>project</RootNamespace>
+    <AssemblyName>project</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <UseIISExpress>false</UseIISExpress>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="AjaxControlToolkit, Version=4.1.7.1213, Culture=neutral, PublicKeyToken=28f01b0e84b6d53e, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+    </Reference>
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Web.DynamicData" />
+    <Reference Include="System.Web.Entity" />
+    <Reference Include="System.Web.ApplicationServices" />
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Web.Extensions" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.EnterpriseServices" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="App_Data\Database1.mdf" />
+    <Content Include="App_Data\Database1_log.ldf">
+      <DependentUpon>Database1.mdf</DependentUpon>
+    </Content>
+    <Content Include="App_Data\Database2.mdf" />
+    <Content Include="App_Data\Database2_log.ldf">
+      <DependentUpon>Database2.mdf</DependentUpon>
+    </Content>
+    <Content Include="canteenPage.aspx" />
+    <Content Include="cart.aspx" />
+    <Content Include="cart1.aspx" />
+    <Content Include="data1\images\cajunchickenwrap,large.1478558531.jpg" />
+    <Content Include="data1\images\capturelenifoodsite.jpg" />
+    <Content Include="data1\images\faloo_paratha__copy.jpg" />
+    <Content Include="data1\images\halloumiwrap.jpg" />
+    <Content Include="data1\images\p1.jpg" />
+    <Content Include="data1\images\p2.jpg" />
+    <Content Include="data1\images\p4.jpg" />
+    <Content Include="data1\images\p6.jpg" />
+    <Content Include="data1\images\p7.png" />
+    <Content Include="data1\images\pastryphoto291528.jpg" />
+    <Content Include="data1\images\screenshot_168.png" />
+    <Content Include="data1\images\screenshot_190.png" />
+    <Content Include="data1\images\screenshot_191.png" />
+    <Content Include="data1\images\shanu.png" />
+    <Content Include="data1\tooltips\cajunchickenwrap,large.1478558531.jpg" />
+    <Content Include="data1\tooltips\capturelenifoodsite.jpg" />
+    <Content Include="data1\tooltips\faloo_paratha__copy.jpg" />
+    <Content Include="data1\tooltips\halloumiwrap.jpg" />
+    <Content Include="data1\tooltips\p1.jpg" />
+    <Content Include="data1\tooltips\p2.jpg" />
+    <Content Include="data1\tooltips\p4.jpg" />
+    <Content Include="data1\tooltips\p6.jpg" />
+    <Content Include="data1\tooltips\p7.png" />
+    <Content Include="data1\tooltips\pastryphoto291528.jpg" />
+    <Content Include="data1\tooltips\screenshot_168.png" />
+    <Content Include="data1\tooltips\screenshot_190.png" />
+    <Content Include="data1\tooltips\screenshot_191.png" />
+    <Content Include="data1\tooltips\shanu.png" />
+    <Content Include="eats.aspx" />
+    <Content Include="eatsOwner.aspx" />
+    <Content Include="engine1\jquery.js" />
+    <Content Include="engine1\script.js" />
+    <Content Include="engine1\style.css" />
+    <Content Include="engine1\style.mod.css" />
+    <Content Include="engine1\wowslider.js" />
+    <Content Include="engine1\wowslider.mod.js" />
+    <Content Include="engine1\ws-ctrl-boundary.svg" />
+    <Content Include="fnf.aspx" />
+    <Content Include="fnfOwner.aspx" />
+    <Content Include="img\bg\b13 %282%29.png" />
+    <Content Include="img\bg\b13 %283%29.png" />
+    <Content Include="img\bg\b13.png" />
+    <Content Include="img\bg\bg1.jpg" />
+    <Content Include="img\bg\bg11.png" />
+    <Content Include="img\bg\bg12.png" />
+    <Content Include="img\bg\bg2.jpg" />
+    <Content Include="img\bg\bg3.jpg" />
+    <Content Include="img\bg\bg4.jpg" />
+    <Content Include="img\bg\bgggg.jpg" />
+    <Content Include="img\bg\bk1.jpg" />
+    <Content Include="img\bg\cart.jpg" />
+    <Content Include="img\bg\image1.png" />
+    <Content Include="img\bg\cust.png" />
+    <Content Include="img\bg\shaMenu.png" />
+    <Content Include="img\bg\shaMenu1.png" />
+    <Content Include="img\bg\shan.png" />
+    <Content Include="img\cant\b132.png" />
+    <Content Include="img\cant\b13.png" />
+    <Content Include="img\cant\back.jpeg" />
+    <Content Include="img\cant\bckgrnd-photo-370984.jpeg" />
+    <Content Include="img\cant\bf2.jpg" />
+    <Content Include="img\cant\bg4.jpg" />
+    <Content Include="img\cant\co1.jpg" />
+    <Content Include="img\cant\co2.jpg" />
+    <Content Include="img\cant\co3.jpg" />
+    <Content Include="img\cant\co4.jpg" />
+    <Content Include="img\cant\mainbg.jpg" />
+    <Content Include="img\cant\pink11.jpg" />
+    <Content Include="img\cant\plus.png" />
+    <Content Include="img\cant\restaurant-menu-over-wooden-background-vector-illustration.jpg" />
+    <Content Include="img\cat\chinese\wsp1.jpg" />
+    <Content Include="img\cat\drink\hai.jpg" />
+    <Content Include="img\cat\drink\Juice 1.jpg" />
+    <Content Include="img\cat\drink\o.jpg" />
+    <Content Include="img\cat\roti\roti.jpg" />
+    <Content Include="img\cat\veg\dish.jpg" />
+    <Content Include="img\cust\face.jpg" />
+    <Content Include="img\food\spicy\cb.jpg" />
+    <Content Include="img\food\spicy\gj.jpg" />
+    <Content Include="img\food\spicy\o.jpg" />
+    <Content Include="img\food\spicy\rsp.jpg" />
+    <Content Include="img\food\spicy\samosa.jpg" />
+    <Content Include="img\cant\fun.jpg" />
+    <Content Include="img\cant\bk1.jpg" />
+    <Content Include="img\cant\bkgrnd-photo-1449773.jpeg" />
+    <Content Include="img\cant\images %287%29.jpg" />
+    <Content Include="img\cant\pic.jpg" />
+    <Content Include="img\cant\man.jpg" />
+    <Content Include="img\cant\Juice5.jpg" />
+    <Content Include="img\cant\menu-restaurant-vintage-table.jpg" />
+    <Content Include="img\cant\one.jpg" />
+    <Content Include="img\cant\qwe.jpg" />
+    <Content Include="img\cant\red3.jpg" />
+    <Content Include="img\cant\restaurant-bar-dining-area.jpg" />
+    <Content Include="img\cant\Restaurant-Design-10.jpg" />
+    <Content Include="img\cant\Restaurants.jpg" />
+    <Content Include="img\cant\rv cake.jpg" />
+    <Content Include="img\cant\Screenshot %28171%29.png" />
+    <Content Include="img\cat\chinese\chow.jpg" />
+    <Content Include="img\cat\chinese\momo2.jpg" />
+    <Content Include="img\cat\dessert\rv cake1.jpg" />
+    <Content Include="img\cat\north\chole bhature.jpg" />
+    <Content Include="img\cat\south\south.jpg" />
+    <Content Include="img\cat\starter\samosa.jpg" />
+    <Content Include="img\cat\drink\pineapple juice.jpg" />
+    <Content Include="img\cust\prajkta3.jpg" />
+    <Content Include="img\cust\prajkta5.jpg" />
+    <Content Include="img\logo\image.png" />
+    <Content Include="img\logo\back.jpg" />
+    <Content Include="img\logo\banasthali logo.gif" />
+    <Content Include="img\logo\bk1.jpg" />
+    <Content Include="img\logo\cross.png" />
+    <Content Include="img\logo\images %281%29.jpg" />
+    <Content Include="img\logo\img_1.jpg" />
+    <Content Include="img\logo\img_2.jpg" />
+    <Content Include="img\time\snd.jpg" />
+    <Content Include="rough.aspx" />
+    <Content Include="shaMenu.aspx" />
+    <Content Include="shanuz.aspx" />
+    <Content Include="shanuzOwner.aspx" />
+    <Content Include="spicy.aspx" />
+    <Content Include="img\time\butter paneer.jpg" />
+    <Content Include="img\time\coldcoffe.jpg" />
+    <Content Include="img\time\dish.jpg" />
+    <Content Include="img\time\hai.jpg" />
+    <Content Include="loginPage.aspx" />
+    <Content Include="Password.aspx" />
+    <Content Include="signUp.aspx" />
+    <Content Include="spicyOrder.aspx" />
+    <Content Include="spicyOwner.aspx" />
+    <Content Include="thank.aspx" />
+    <Content Include="Web.config" />
+    <Content Include="Web.Debug.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </Content>
+    <Content Include="Web.Release.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </Content>
+    <Content Include="WebForm1.aspx" />
+    <Content Include="WebForm2.aspx" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="canteenPage.aspx.cs">
+      <DependentUpon>canteenPage.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="canteenPage.aspx.designer.cs">
+      <DependentUpon>canteenPage.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="cart.aspx.cs">
+      <DependentUpon>cart.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="cart.aspx.designer.cs">
+      <DependentUpon>cart.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="cart1.aspx.cs">
+      <DependentUpon>cart1.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="cart1.aspx.designer.cs">
+      <DependentUpon>cart1.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="eats.aspx.cs">
+      <DependentUpon>eats.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="eats.aspx.designer.cs">
+      <DependentUpon>eats.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="eatsOwner.aspx.cs">
+      <DependentUpon>eatsOwner.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="eatsOwner.aspx.designer.cs">
+      <DependentUpon>eatsOwner.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="fnf.aspx.cs">
+      <DependentUpon>fnf.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="fnf.aspx.designer.cs">
+      <DependentUpon>fnf.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="fnfOwner.aspx.cs">
+      <DependentUpon>fnfOwner.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="fnfOwner.aspx.designer.cs">
+      <DependentUpon>fnfOwner.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="rough.aspx.cs">
+      <DependentUpon>rough.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="rough.aspx.designer.cs">
+      <DependentUpon>rough.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="shaMenu.aspx.cs">
+      <DependentUpon>shaMenu.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="shaMenu.aspx.designer.cs">
+      <DependentUpon>shaMenu.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="shanuz.aspx.cs">
+      <DependentUpon>shanuz.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="shanuz.aspx.designer.cs">
+      <DependentUpon>shanuz.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="shanuzOwner.aspx.cs">
+      <DependentUpon>shanuzOwner.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="shanuzOwner.aspx.designer.cs">
+      <DependentUpon>shanuzOwner.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="spicy.aspx.cs">
+      <DependentUpon>spicy.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="spicy.aspx.designer.cs">
+      <DependentUpon>spicy.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="loginPage.aspx.cs">
+      <DependentUpon>loginPage.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="loginPage.aspx.designer.cs">
+      <DependentUpon>loginPage.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Password.aspx.cs">
+      <DependentUpon>Password.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Password.aspx.designer.cs">
+      <DependentUpon>Password.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="signUp.aspx.cs">
+      <DependentUpon>signUp.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="signUp.aspx.designer.cs">
+      <DependentUpon>signUp.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Site1.Master.cs">
+      <DependentUpon>Site1.Master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Site1.Master.designer.cs">
+      <DependentUpon>Site1.Master</DependentUpon>
+    </Compile>
+    <Compile Include="spicyOrder.aspx.cs">
+      <DependentUpon>spicyOrder.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="spicyOrder.aspx.designer.cs">
+      <DependentUpon>spicyOrder.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="spicyOwner.aspx.cs">
+      <DependentUpon>spicyOwner.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="spicyOwner.aspx.designer.cs">
+      <DependentUpon>spicyOwner.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="thank.aspx.cs">
+      <DependentUpon>thank.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="thank.aspx.designer.cs">
+      <DependentUpon>thank.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="WebForm1.aspx.cs">
+      <DependentUpon>WebForm1.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="WebForm1.aspx.designer.cs">
+      <DependentUpon>WebForm1.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="WebForm2.aspx.cs">
+      <DependentUpon>WebForm2.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="WebForm2.aspx.designer.cs">
+      <DependentUpon>WebForm2.aspx</DependentUpon>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Site1.Master" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="img\food\eats\" />
+    <Folder Include="img\food\fnf\" />
+    <Folder Include="img\food\shanu\" />
+    <Folder Include="img\own\" />
+    <Folder Include="img\spicyImg\" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="engine1\ws-ctrl-boundary.eot" />
+    <None Include="engine1\ws-ctrl-boundary.ttf" />
+    <None Include="engine1\ws-ctrl-boundary.woff" />
+  </ItemGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v10.0\WebApplications\Microsoft.WebApplication.targets" />
+  <ProjectExtensions>
+    <VisualStudio>
+      <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}">
+        <WebProjectProperties>
+          <UseIIS>False</UseIIS>
+          <AutoAssignPort>True</AutoAssignPort>
+          <DevelopmentServerPort>5623</DevelopmentServerPort>
+          <DevelopmentServerVPath>/</DevelopmentServerVPath>
+          <IISUrl>
+          </IISUrl>
+          <NTLMAuthentication>False</NTLMAuthentication>
+          <UseCustomServer>False</UseCustomServer>
+          <CustomServerUrl>
+          </CustomServerUrl>
+          <SaveServerSettingsInUserFile>False</SaveServerSettingsInUserFile>
+        </WebProjectProperties>
+      </FlavorProperties>
+    </VisualStudio>
+  </ProjectExtensions>
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
